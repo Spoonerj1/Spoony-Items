@@ -100,7 +100,7 @@
 			<artifactId>com.chrismin13</artifactId>
 			<scope>system</scope>
 			<version>latest</version>
-			<systemPath>C:/Users/chris/OneDrive/Eclipse Workspace/Test Server/plugins/AdditionsAPI.jar</systemPath>
+			<systemPath>/Users/Danny/Documents/MISC Minecraft/GitClones/SpoonyAdditions.jar</systemPath>
 		</dependency>
 
 		<!-- If you are compiling this from the GitHub Repo, change systemPath 
@@ -126,6 +126,14 @@
 			<version>3.16.1-SNAPSHOT</version>
 			<scope>provided</scope>
 		</dependency>
+
+		<dependency>
+		  <groupId>org.spigotmc</groupId>
+  		  <artifactId>plugin-annotations</artifactId>
+  		  <version>1.1.0-SNAPSHOT</version>
+  		  <scope>provided</scope>
+		</dependency>
+	
 	</dependencies>
 
 </project>
